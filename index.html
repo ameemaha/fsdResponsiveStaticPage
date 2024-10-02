@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+            <nav>
+                <ul class='nav-bar'>
+                    <li class='logo'>AMEE WEB SOLUTIONS</li>
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>                        
+                        <li><a href="#contact">Contact</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+            </nav>
+         
+    </header>
+    <section class="hero" id="home">
+        <div class="hero_content">
+            <h1>Building Websites and Mobile Development</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo aliquid ipsum a facere, sunt obcaecati commodi consequuntur error, esse dicta praesentium ea atque sint.</p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+    </section>
+    <section class="about m-t" id="about">
+        <div class="container">
+            <h2 class="m-b">About Us</h2>
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="./images/about.jpg" />
+                </div>
+                <div class="about_content">
+                    <h3>Specialised in Web and Mobile Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias nulla odit pariatur voluptatem ducimus quibusdam doloremque iste porro eius? Eveniet deleniti porro, harum facere rem, veniam officiis tempore dolorem, dolores mollitia debitis distinctio fuga sit ducimus earum ad ex. Eveniet consequatur nostrum iusto eum esse delectus sit culpa cumque ipsam, quos doloribus praesentium iste laborum reiciendis quae itaque? Possimus alias id, ex quos facere, consequuntur veniam culpa cumque, aliquam in doloremque voluptatibus quae dolor. Quis amet laborum ipsa corporis, cupiditate quas nemo ab voluptate veniam aliquam dolor sit aspernatur?</p>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <section class="features m-t" id="services">
+        <div class="container">
+            <h2 class="m-b">SERVICES</h2>
+            <div class="feature-section">
+                <div class="feature-card">
+                    <img src="./images/mobile.jpg"></i>
+                    <h3>Mobile App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque sunt quibusdam voluptate dicta esse.</p>
+                    <a hre="#">View</a>
+                </div>
+                <div class="feature-card">
+                    <img src="./images/react.jpg"></i>
+                    <h3>React </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque sunt quibusdam voluptate dicta esse.</p>
+                    <a hre="#">View</a>
+                </div>
+                <div class="feature-card">
+                    <img src="./images/mobile.jpg"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque sunt quibusdam voluptate dicta esse.</p>
+                    <a hre="#">View</a>
+                </div>
+                <div class="feature-card">
+                    <img src="./images/mobile.jpg"></i>
+                    <h3>SEO Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab atque sunt quibusdam voluptate dicta esse.</p>
+                    <a hre="#">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact m-t" id="contact">
+        <div class="container">
+            <h2 class="m-b">Contact Us</h2>
+            <div class="contact-box">                
+                <div class="left"></div>
+                <div class="right">
+                    
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="text" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Phone">
+                    <textarea placeholder="Message" class="field"></textarea>
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p> &copy; 2024 AMEE WEB SOLUTIONS</p>
+        </div>
+    </footer>
+</body>
+</html>
